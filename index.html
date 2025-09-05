@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 40th Monthsary 💙❤️</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Dancing+Script:wght@600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #003366, #ff4d6d);
+      text-align: center;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      font-family: 'Dancing Script', cursive;
+      color: #ffccd5;
+      text-shadow: 2px 2px #002244;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .letter-box {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      margin: 40px auto;
+      max-width: 800px;
+      border-radius: 25px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+      animation: fadeIn 1s ease;
+    }
+    .letter-box h2 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #ffccd5;
+    }
+    .letter-box p {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #fff;
+      white-space: pre-line;
+    }
+    button {
+      background: #ff4d6d;
+      color: #fff;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-size: 1rem;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #002244;
+      transform: scale(1.05);
+    }
+    footer {
+      margin: 30px;
+      font-size: 0.9rem;
+      color: #ffe6eb;
+    }
+    .hearts {
+      position: fixed;
+      top: -10%;
+      font-size: 2rem;
+      animation: fall 6s linear infinite;
+      opacity: 0.7;
+    }
+    @keyframes fall {
+      0% { transform: translateY(-10%) rotate(0deg); }
+      100% { transform: translateY(110vh) rotate(360deg); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy 40th Monthsary, My Love 💙❤️</h1>
+    <p>40 months of love, laughter, and unending memories ✨</p>
+  </header>
+
+  <!-- Expanded Gallery with More Pictures -->
+  <section class="gallery">
+    <img src="photo_6165907633878463199_y.jpg" alt="Us">
+    <img src="photo_6269454068409812896_y.jpg" alt="Together">
+    <img src="photo_6185817422930494200_y.jpg" alt="Memories">
+    <img src="photo_6185817422930494201_y.jpg" alt="Smiles">
+    <img src="photo_6185817422930494202_y.jpg" alt="Love">
+    <img src="photo_6185817422930494203_y.jpg" alt="Special Day">
+    <img src="photo_6185817422930494204_y.jpg" alt="Forever">
+    <img src="photo_6269454068409812896_y.jpg" alt="Happy Us">
+    <img src="photo_6165907633878463203_y.jpg" alt="Journey">
+    <img src="photo_6269454068409812905_y.jpg" alt="Cute Moments">
+  </section>
+
+  <section class="letter-box">
+    <h2>💌 Love Letter</h2>
+    <p id="letter-text"></p>
+    <button onclick="nextLetter()">Next Letter 💕</button>
+  </section>
+
+  <footer>
+     40 months & forever 🌙
+  </footer>
+
+  <!-- Floating hearts -->
+  <div class="hearts" style="left:10%; animation-delay: 0s;">💙</div>
+  <div class="hearts" style="left:30%; animation-delay: 2s;">❤️</div>
+  <div class="hearts" style="left:50%; animation-delay: 4s;">💙</div>
+  <div class="hearts" style="left:70%; animation-delay: 6s;">❤️</div>
+  <div class="hearts" style="left:90%; animation-delay: 8s;">💙</div>
+
+  <script>
+    const letters = [
+      `Happy 40th monthsary, my love! 💙❤️
+
+These 40 months with you have been the best part of my life. Every time I hear “I Do (Cherish You),” I can’t help but think of us. The lyrics say exactly what I feel—that no matter what happens, I’ll always choose you and cherish you with everything I have.
+
+I know love isn’t always about big things, it’s about the little moments—your smile, your laugh, your voice, and the comfort I feel knowing you’re mine. You’ve been my constant, my safe place, and my greatest blessing.
+
+I love you more than words can explain, and I promise to keep cherishing you not just for 40 months, but for all the months and years ahead.`,
+
+      `Whenever I listen to “Your Universe,” I’m reminded of how lucky I am to have you. Out of everyone in this world, I still can’t believe I get to be the one who gets your love. Just like the song says, “you can thank your stars all you want, but I’ll always be the lucky one.”
+
+For the past 40 months, you’ve been my world, my safe space, my joy, and my reason to keep going no matter how hard life gets. You make my days brighter just by being in them, even from a distance.
+
+Thank you for choosing me, for loving me, and for making me feel like I’m part of your universe. I promise to keep loving you more and more as time goes by.`,
+
+      `When I listen to “Be With You,” I feel like it was written for us. The song reminds me that at the end of the day, no matter what we go through, all I really want is to be with you.
+
+These 40 months have shown me how much brighter life is with you by my side. Through the distance, the challenges, and the waiting, one thing has always been clear—my heart belongs to you. Just like the song says, there’s nowhere else I’d rather be than with you.
+
+Thank you for loving me, for choosing me, and for making every moment worth it. I can’t wait for the day when I don’t just count the months with you, but the years and a lifetime together.`,
+
+      `Whenever I hear “Nothing” by Bruno Major, I think of us. The song says it perfectly—love doesn’t always need grand things, because with you, even doing nothing at all feels like everything.
+
+These 40 months with you have taught me that it’s not about where we are or what we’re doing, it’s about who I’m with—and I’m happiest when it’s you. I’d choose a quiet day with you over a thousand adventures anywhere else.
+
+Thank you for making the simple things so beautiful, and for making my life feel complete just by being in it. 40 months of love, and to a lifetime of turning “nothing” into the most special moments—together.`,
+
+      `My Love,
+
+Happy 40th monthsary to us! 
+
+When I look back at the past 40 months, I can’t help but feel so proud of us. Being in a long-distance relationship hasn’t always been easy—we’ve faced changes, challenges, and moments where the distance felt heavier than usual. But through it all, one thing has never changed: my love for you.
+
+We’ve grown so much together, even while being miles apart. We’ve learned patience when the days felt long, understanding when life got busy, and strength when we missed each other more than words could explain. Every call, every message, every little effort we’ve shared has kept us close despite the space between us.
+
+I know we’re not the same people we were when we first started this journey. We’ve changed, we’ve matured, and we’ve discovered new parts of ourselves. But what makes me happiest is knowing that no matter how much we grow or how much life changes, we always grow with each other.
+
+Thank you for choosing me every single day, even when it’s hard. Thank you for loving me even through the distance, for reminding me that our love is worth every challenge. I can’t wait for the day when the distance is finally gone, when I can hold your hand not through a screen but for real, and when every month we celebrate will be side by side.
+
+40 months of love, growth, and strength—and to a future where all the waiting will be worth it. Always remember, no matter the changes, no matter the distance, my heart is yours.
+
+
+Benot`
+    ];
+
+    let currentLetter = 0;
+    const letterText = document.getElementById("letter-text");
+
+    function showLetter(index) {
+      letterText.textContent = letters[index];
+    }
+
+    function nextLetter() {
+      currentLetter = (currentLetter + 1) % letters.length;
+      showLetter(currentLetter);
+    }
+
+    // Show first letter on load
+    showLetter(currentLetter);
+  </script>
+</body>
+</html>
